@@ -11,6 +11,8 @@
 		4B0F47792BD5797C00086A54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F47782BD5797C00086A54 /* ContentView.swift */; };
 		4B0F477B2BD5797D00086A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F477A2BD5797D00086A54 /* Assets.xcassets */; };
 		4B0F477E2BD5797D00086A54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0F477D2BD5797D00086A54 /* Preview Assets.xcassets */; };
+		4B0F47852BD57E3500086A54 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F47842BD57E3500086A54 /* CircleImage.swift */; };
+		4B0F47872BD57FA200086A54 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0F47862BD57FA200086A54 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4B0F47782BD5797C00086A54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B0F477A2BD5797D00086A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B0F477D2BD5797D00086A54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B0F47842BD57E3500086A54 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4B0F47862BD57FA200086A54 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				4B0F47762BD5797C00086A54 /* SwiftUITutorial1App.swift */,
 				4B0F47782BD5797C00086A54 /* ContentView.swift */,
+				4B0F47842BD57E3500086A54 /* CircleImage.swift */,
 				4B0F477A2BD5797D00086A54 /* Assets.xcassets */,
 				4B0F477C2BD5797D00086A54 /* Preview Content */,
+				4B0F47862BD57FA200086A54 /* MapView.swift */,
 			);
 			path = SwiftUITutorial1;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0F47792BD5797C00086A54 /* ContentView.swift in Sources */,
+				4B0F47872BD57FA200086A54 /* MapView.swift in Sources */,
 				4B0F47772BD5797C00086A54 /* SwiftUITutorial1App.swift in Sources */,
+				4B0F47852BD57E3500086A54 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
